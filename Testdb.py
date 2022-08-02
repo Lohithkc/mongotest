@@ -11,6 +11,19 @@ d = {
     "Address" : "bangalore"
 }
 
+d = {
+    "Name" : "Lohith",
+    "Age" : 30,
+    "Email" : "lohith@gmail.com",
+    "Address" : "bangalore"
+}
+
+d = {
+    "Name" : "Lohith",
+    "Age" : 30,
+    "Email" : "lohith@gmail.com",
+    "Address" : "bangalore"
+}
 db1 = client['mongggtest']
 collection = db1['test']
 collection.insert_one(d)
